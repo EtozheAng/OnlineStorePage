@@ -1,3 +1,47 @@
 body {
-  
+  font-size: 16px;
+  line-height: 27px;
+  color: $default;
+  @extend %DMS-400;
+}
+.container{
+  max-width: 1278px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.star{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  &[data-total-value="1"] &__item:nth-child(n+5),
+  &[data-total-value="2"] &__item:nth-child(n+4),
+  &[data-total-value="3"] &__item:nth-child(n+3),
+  &[data-total-value="4"] &__item:nth-child(n+2),
+  &[data-total-value="5"] &__item:nth-child(n+1){
+    path {
+        fill: #000;
+      }
+  }
+  &__item{
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s;
+    &:first-child{
+      margin: 0;
+    }
+    &:hover,
+    &:hover ~ .star__item{
+      path{
+        fill: #000;
+      }
+    }
+  }
+}
+.rating{
+  pointer-events: none;
 }

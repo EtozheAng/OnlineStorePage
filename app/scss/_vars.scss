@@ -1,0 +1,25 @@
+$default: #707070;
+$accent: #D8D8D8;
+$gold: #A18A68;
+
+%DMS-400 {
+  font-family: 'DMSans-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%DMS-500 {
+  font-family: 'DMSans-Medium', sans-serif;
+  font-weight: 500;
+}
+%DMS-700 {
+  font-family: 'DMSans-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%error{
+  font-size: 10px;
+  line-height: 10px;
+  color: #D82700;
+  margin-left: 5px;
+  margin-bottom: 36px;
+}
