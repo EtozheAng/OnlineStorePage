@@ -1,10 +1,12 @@
 {
-  "name": "testgulp",
+  "name": "pagestore",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://etozheang.github.io/OnlineStorePage/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Pavel",
   "license": "ISC",
@@ -19,5 +21,8 @@
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
     "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
