@@ -1,6 +1,7 @@
 $default: #707070;
-$accent: #D8D8D8;
-$gold: #A18A68;
+$accent: #d8d8d8;
+$gold: #a18a68;
+$black: #000;
 
 %DMS-400 {
   font-family: 'DMSans-Regular', sans-serif;
@@ -16,10 +17,10 @@ $gold: #A18A68;
   font-weight: 700;
 }
 
-%error{
+%error {
   font-size: 10px;
   line-height: 10px;
-  color: #D82700;
+  color: #d82700;
   margin-left: 5px;
   margin-bottom: 36px;
 }

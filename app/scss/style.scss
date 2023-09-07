@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 14px;
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid $accent;
   }
   &__item {
     display: flex;
@@ -33,11 +33,11 @@
     }
   }
   &__list-link {
-    color: #000;
+    color: $black;
     margin-left: 64px;
     &--active {
       padding-bottom: 18px;
-      border-bottom: 2px solid #000;
+      border-bottom: 2px solid $black;
     }
   }
 }
@@ -67,7 +67,7 @@
     }
   }
   &__list-link {
-    color: #000;
+    color: $black;
   }
   &__link {
     position: relative;
@@ -75,7 +75,7 @@
     display: block;
     font-size: 20px;
     line-height: 26px;
-    color: #000;
+    color: $black;
     margin-bottom: 23px;
     &:last-child {
       &::before {
@@ -176,13 +176,13 @@
     flex-basis: 350px;
     height: 53px;
     background-color: #fff;
-    border: 1px solid #000000;
+    border: 1px solid $black;
     border-radius: 4px;
     text-transform: uppercase;
     @extend %DMS-700;
     cursor: pointer;
     &:hover {
-      background-color: #000;
+      background-color: $black;
       color: #fff;
       transition: all 0.4s;
     }
@@ -194,7 +194,7 @@
   &__item-like {
     &:hover {
       path {
-        fill: #000;
+        fill: $black;
       }
     }
   }
@@ -204,7 +204,7 @@
       content: '';
       width: 1px;
       height: 19px;
-      background-color: #d8d8d8;
+      background-color: $accent;
       margin: 0 39px;
     }
     li {
@@ -214,7 +214,7 @@
       }
       &:hover {
         path {
-          fill: #000;
+          fill: $black;
         }
       }
     }
@@ -228,7 +228,7 @@
   }
   &__info-title {
     margin-right: 16px;
-    color: #000;
+    color: $black;
   }
   &__info-text {
     a {
@@ -258,7 +258,7 @@
     position: relative;
     left: 0;
     padding-bottom: 24px;
-    border-bottom: 2px solid #d8d8d8;
+    border-bottom: 2px solid $accent;
   }
   &__big-item {
     scroll-snap-align: start;
@@ -339,9 +339,9 @@
     }
   }
   &__top-item--active {
-    color: #000;
+    color: $black;
     padding-bottom: 35px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $black;
   }
   &__content-item {
     display: none;
@@ -357,7 +357,7 @@
 
   &__content-info-title {
     display: inline;
-    color: #000;
+    color: $black;
     margin-right: 16px;
   }
   &__content-info-text {
@@ -372,7 +372,7 @@
   &__title {
     font-size: 20px;
     line-height: 26px;
-    color: #000;
+    color: $black;
     margin-bottom: 76px;
   }
   &__item {
@@ -392,7 +392,7 @@
   &__item-name {
     font-size: 20px;
     line-height: 26px;
-    color: #000;
+    color: $black;
     margin: 0 16px 16px 0;
   }
   &__item-raring {
@@ -417,7 +417,7 @@
   &__title {
     font-size: 20px;
     line-height: 26px;
-    color: #000;
+    color: $black;
     margin-bottom: 11px;
   }
   &__text {
@@ -464,14 +464,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: #000;
+      background-color: $black;
     }
   }
   &__checkbox-new {
     position: absolute;
     width: 18px;
     height: 18px;
-    border: 1px solid #000;
+    border: 1px solid $black;
     margin-left: -26px;
   }
   &__rating {
@@ -490,7 +490,7 @@
     max-width: 123px;
     border: 1px solid #ffffff;
     border-radius: 4px;
-    background-color: #000;
+    background-color: $black;
     font-size: 16px;
     line-height: 21px;
     @extend %DMS-700;
@@ -501,7 +501,7 @@
 }
 .related {
   &__title {
-    color: #000;
+    color: $black;
     font-size: 26px;
     line-height: 35px;
     margin-bottom: 47px;
@@ -554,7 +554,7 @@
   }
   &__title {
     @extend %DMS-400;
-    color: #000;
+    color: $black;
     font-size: 20px;
     line-height: 26px;
   }
@@ -593,7 +593,7 @@
   }
   &__form {
     position: relative;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $black;
   }
   &__form-error {
     @extend %error;
@@ -625,13 +625,13 @@
     margin-right: 30px;
     &:hover {
       path {
-        fill: #000;
+        fill: $black;
       }
     }
   }
   &__copy {
     span {
-      color: #000;
+      color: $black;
     }
   }
 }
